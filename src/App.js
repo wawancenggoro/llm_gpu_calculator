@@ -2394,35 +2394,14 @@ function App() {
                                                 name="dropdownGPU"
                                                 onChange={handleChangeSelection}
                                             >
-                                                <option value="rtx-2060">
-                                                    RTX 2060
+                                                <option value="T4">
+                                                    T4
                                                 </option>
-                                                <option value="rtx-2070">
-                                                    RTX 2070
-                                                </option>
-                                                <option value="rtx-3060">
-                                                    RTX 3060
-                                                </option>
-                                                <option value="rtx-3090">
-                                                    RTX 3090
-                                                </option>
-                                                <option value="rtx-4060">
-                                                    RTX 4060
-                                                </option>
-                                                <option value="rtx-4090">
-                                                    RTX 4090
-                                                </option>
-                                                <option value="P-100 (12 GB)">
-                                                    P 100
-                                                </option>
-                                                <option value="A-4000">
-                                                    A 4000
-                                                </option>
-                                                <option value="A-6000">
-                                                    A 6000
+                                                <option value="V100">
+                                                    V100
                                                 </option>
                                                 <option value="H100">
-                                                    H 100
+                                                    H100
                                                 </option>
                                                 <option value="L40S">
                                                     L40S
