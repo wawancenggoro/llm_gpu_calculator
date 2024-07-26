@@ -2421,6 +2421,15 @@ function App() {
                                                 <option value="A-6000">
                                                     A 6000
                                                 </option>
+                                                <option value="H100">
+                                                    H 100
+                                                </option>
+                                                <option value="L40S">
+                                                    L40S
+                                                </option>
+                                                <option value="A100">
+                                                    A100
+                                                </option>
                                             </select>
                                         </div>
                                         <div className="pl-5">
