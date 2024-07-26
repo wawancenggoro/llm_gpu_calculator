@@ -7,12 +7,12 @@ import cpuJSONData from "./cpu_config.json";
 
 const billion = 1000000000;
 const tera = 1000000000 * 1000;
-let configPath = "/gpu_poor/all_configs.json";
+let configPath = "/llm_gpu_calculator/all_configs.json";
 if (
     window.location.hostname === "localhost" ||
     window.location.hostname === "127.0.0.1"
 ) {
-    configPath = "/gpu_poor/all_configs.json";
+    configPath = "/llm_gpu_calculator/all_configs.json";
 }
 const MAX_FILE_SIZE = 500000;
 const ggml_quants = [
@@ -2066,26 +2066,14 @@ function App() {
                         </div>
                     </Modal>
                     <div className="pt-3 font-bold text-center font-poppins">
-                        <span className="text-2xl">Are you GPU poor?</span>{" "}
+                        <span className="text-2xl">Large Language Model (LLM) GPU Calculator</span>{" "}
                         <span className="text-2xl hover:text-3xl">🫵🤨</span>
                     </div>
                     <div className="text-center text-l font-poppins pb-1">
                         Calculate GPU memory requirement and token/s for any LLM
                     </div>
-                    <div className="flex pb-1 content-center justify-center">
-                        <img
-                            className="transform transition-transform duration-300 hover:scale-110 border border-gray-600 hover:border-2"
-                            src="/gpu_poor/itsovermeme.png"
-                            alt="meme"
-                            style={{ width: "75px", height: "75px" }}
-                        />
-                        <p className="font-poppins pr-2 pl-2 pt-8">OR</p>
-                        <img
-                            className="transform transition-transform duration-300 hover:scale-110 border border-gray-600 hover:border-2"
-                            src="/gpu_poor/weback.jpg"
-                            alt="meme"
-                            style={{ width: "75px", height: "75px" }}
-                        />
+                    <div>
+                        &nbsp;
                     </div>
                     <hr className="bg-gray-300"></hr>
                     <div className="flex flex-row mt-1">
@@ -2094,7 +2082,6 @@ function App() {
                                 <label className="text-sm font-poppins pr-4">
                                     Name (Hugginface ID)
                                 </label>
-
                                 <TextInput
                                     className="w-64 font-poppins input border border-black text-sm"
                                     value={modelName}
@@ -2855,7 +2842,7 @@ function App() {
                     <div>
                         <a
                             className="text-xs underline font-mono text-blue-600 hover:font-bold"
-                            href="https://github.com/RahulSChand/gpu_poor/"
+                            href="https://github.com/reski-rukmantiyo/llm_gpu_calculator/"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -2903,7 +2890,7 @@ function App() {
                 <div>
                     <a
                         className="text-base underline text-blue-600 hover:font-bold"
-                        href="https://github.com/RahulSChand/gpu_poor/"
+                        href="https://github.com/reski-rukmantiyo/llm_gpu_calculator/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
