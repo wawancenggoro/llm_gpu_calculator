@@ -2842,7 +2842,7 @@ function App() {
                     <div>
                         <a
                             className="text-xs underline font-mono text-blue-600 hover:font-bold"
-                            href="https://github.com/reski-rukmantiyo/llm_gpu_calculator/"
+                            href="https://github.com/reski-rukmantiyo/llm_gpu_calculator/wiki/Calculation"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
