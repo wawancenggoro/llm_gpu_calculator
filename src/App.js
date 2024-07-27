@@ -1188,7 +1188,7 @@ function App() {
         dropdownFullOrNot: "full_trn",
         dropdownOpt: "adam_opt",
         dropdownQuant: "no_quant",
-        dropdownGPU: "rtx-2060",
+        dropdownGPU: "H100SXM",
         dropdownCPU: "3600x",
         dropdownDDR: "ddr4",
         isGPUorCPU: "usingGPU",
@@ -2381,20 +2381,26 @@ function App() {
                                                 name="dropdownGPU"
                                                 onChange={handleChangeSelection}
                                             >
-                                                <option value="T4">
-                                                    T4
+                                                <option value="H100SXM">
+                                                    H100-SXM
                                                 </option>
-                                                <option value="V100">
-                                                    V100
-                                                </option>
-                                                <option value="H100">
-                                                    H100
+                                                <option value="H100NVL">
+                                                    H100-NVL
                                                 </option>
                                                 <option value="L40S">
                                                     L40S
                                                 </option>
                                                 <option value="A100">
                                                     A100
+                                                </option>
+                                                <option value="T4">
+                                                    T4
+                                                </option>
+                                                <option value="V100">
+                                                    V100
+                                                </option>
+                                                <option value="P100">
+                                                    P100
                                                 </option>
                                             </select>
                                         </div>
