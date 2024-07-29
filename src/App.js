@@ -1188,7 +1188,7 @@ function App() {
         dropdownFullOrNot: "full_trn",
         dropdownOpt: "adam_opt",
         dropdownQuant: "no_quant",
-        dropdownGPU: "H100SXM",
+        dropdownGPU: "H100SXM-FP16",
         dropdownCPU: "3600x",
         dropdownDDR: "ddr4",
         isGPUorCPU: "usingGPU",
@@ -2381,8 +2381,11 @@ function App() {
                                                 name="dropdownGPU"
                                                 onChange={handleChangeSelection}
                                             >
-                                                <option value="H100SXM">
-                                                    H100-SXM
+                                                <option value="H100SXM-FP16">
+                                                    H100SXM-FP16
+                                                </option>
+                                                <option value="H100SXM-FP64">
+                                                    H100SXM-FP64
                                                 </option>
                                                 <option value="H100NVL">
                                                     H100-NVL
