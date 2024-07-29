@@ -88,5 +88,15 @@
         "Cores": 64,
         "Memory": "DDR5",
         "Flops": 2000.0
+    },
+    "8462" : {
+        "Speed": 0.0,
+        "Bus": "Quad",
+        "ddr4": 1,
+        "ddr5": 0,
+        "speed_ddr4": 3200,
+        "Cores": 128,
+        "Memory": "DDR5",
+        "Flops": 2000.0
     }
 }

@@ -7,5 +7,4 @@
     "T4": {"bandwidth": 300, "compute": 8.1, "memory": 16},
     "V100": {"bandwidth": 900, "compute": 14, "memory": 16},
     "P100": {"bandwidth": 732, "compute": 10.6, "memory": 16}
-  }
-  
+}

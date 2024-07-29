@@ -1350,9 +1350,9 @@ function App() {
             speed_ddr4,
             bus,
             memory
-        );
+        ); 
 
-        const quantType = selections.dropdownQuant;
+        const quantType = selections.dropdownQuant;  
 
         let parsedConfig = getParseConfig(
             parsedJSONData,
