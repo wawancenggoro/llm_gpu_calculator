@@ -1,6 +1,6 @@
 {
     "A100": {"bandwidth": 1600, "compute": 156, "memory": 40},
-    "H100SXM": {"bandwidth": 3350, "compute": 989, "memory": 80},
+    "H100SXM": {"bandwidth": 3350, "compute": 1979, "memory": 80},
     "H100NVL": {"bandwidth": 3900, "compute": 835, "memory": 94},
     "L40S": {"bandwidth": 864, "compute": 183, "memory": 48},
     "T4": {"bandwidth": 300, "compute": 8.1, "memory": 16},
