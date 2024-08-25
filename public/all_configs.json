@@ -1902,5 +1902,105 @@
           "use_cache": true,
           "vocab_size": 32064,
           "_attn_implementation": "flash_attention_2"
-        }
+        },
+        "nvidia/NV-Embed-v1": 
+        "_name_or_path": "nvidia/NV-Embed-v1",
+        "add_eos": true,
+        "add_pad_token": true,
+        "architectures": [
+          "NVEmbedModel"
+        ],
+        "auto_map": {
+          "AutoConfig": "configuration_nvembed.NVEmbedConfig",
+          "AutoModel": "modeling_nvembed.NVEmbedModel"
+        },
+        "is_mask_instruction": true,
+        "latent_attention_config": {
+          "model_type": "latent_attention"
+        },
+        "mask_type": "b",
+        "model_type": "nvembed",
+        "padding_side": "right",
+        "text_config": {
+          "_name_or_path": "nvidia/NV-Embed-v1",
+          "add_cross_attention": false,
+          "architectures": [
+            "MistralModel"
+          ],
+          "attention_dropout": 0.0,
+          "bad_words_ids": null,
+          "begin_suppress_tokens": null,
+          "bos_token_id": 1,
+          "chunk_size_feed_forward": 0,
+          "cross_attention_hidden_size": null,
+          "decoder_start_token_id": null,
+          "diversity_penalty": 0.0,
+          "do_sample": false,
+          "early_stopping": false,
+          "encoder_no_repeat_ngram_size": 0,
+          "eos_token_id": 2,
+          "exponential_decay_length_penalty": null,
+          "finetuning_task": null,
+          "forced_bos_token_id": null,
+          "forced_eos_token_id": null,
+          "hidden_act": "silu",
+          "hidden_size": 4096,
+          "id2label": {
+            "0": "LABEL_0",
+            "1": "LABEL_1"
+          },
+          "initializer_range": 0.02,
+          "intermediate_size": 14336,
+          "is_decoder": false,
+          "is_encoder_decoder": false,
+          "label2id": {
+            "LABEL_0": 0,
+            "LABEL_1": 1
+          },
+          "length_penalty": 1.0,
+          "max_length": 20,
+          "max_position_embeddings": 32768,
+          "min_length": 0,
+          "model_type": "bidir_mistral",
+          "no_repeat_ngram_size": 0,
+          "num_attention_heads": 32,
+          "num_beam_groups": 1,
+          "num_beams": 1,
+          "num_hidden_layers": 32,
+          "num_key_value_heads": 8,
+          "num_return_sequences": 1,
+          "output_attentions": false,
+          "output_hidden_states": false,
+          "output_scores": false,
+          "pad_token_id": null,
+          "prefix": null,
+          "problem_type": null,
+          "pruned_heads": {},
+          "remove_invalid_values": false,
+          "repetition_penalty": 1.0,
+          "return_dict": true,
+          "return_dict_in_generate": false,
+          "rms_norm_eps": 1e-05,
+          "rope_theta": 10000.0,
+          "sep_token_id": null,
+          "sliding_window": 4096,
+          "suppress_tokens": null,
+          "task_specific_params": null,
+          "temperature": 1.0,
+          "tf_legacy_loss": false,
+          "tie_encoder_decoder": false,
+          "tie_word_embeddings": false,
+          "tokenizer_class": null,
+          "top_k": 50,
+          "top_p": 1.0,
+          "torch_dtype": "float32",
+          "torchscript": false,
+          "typical_p": 1.0,
+          "use_bfloat16": false,
+          "use_cache": true,
+          "vocab_size": 32000
+        },
+        "torch_dtype": "float16",
+        "transformers_version": "4.37.2"
+      }
 }
