@@ -6,7 +6,7 @@ Calculates how much **GPU memory you need** and how much **token/s you can get**
 
 Also breakdown of where it goes for training/inference with quantization (GGML/bitsandbytes/QLoRA) & inference frameworks (vLLM/llama.cpp/HF) supported
 
-Link: **https://rahulschand.github.io/gpu_poor/**
+Link: **https://wawancenggoro.github.io/llm_gpu_calculator/**
 
 ### Demo
 
